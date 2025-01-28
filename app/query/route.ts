@@ -7,9 +7,9 @@
     SELECT invoices.amount, customers.name
      FROM invoices
      JOIN customers ON invoices.customer_id = customers.id
-     WHERE invoices.amount = 666;
+     ;
    `;
-
+//WHERE invoices.amount = 32545
  	return data.rows;
  }
 
