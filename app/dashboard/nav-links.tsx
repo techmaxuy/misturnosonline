@@ -12,7 +12,7 @@ import {
   import clsx from 'clsx';
    
   const links = [
-    { icon: HomeIcon, name: 'Home', href: '/' },
+    { icon: HomeIcon, name: 'Home', href: '/dashboard' },
     { icon: CalendarIcon, name: 'Reservá', href: '/dashboard/reserva' },
     { icon: CalendarDaysIcon, name: 'Mis reservas', href: '/dashboard/misreservas' },
     { icon: CreditCardIcon, name: 'Mis pagos', href: '/dashboard/mispagos' },
